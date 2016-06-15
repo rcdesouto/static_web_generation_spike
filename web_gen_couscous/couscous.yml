@@ -1,0 +1,30 @@
+template:
+    url: https://github.com/CouscousPHP/Template-Dark
+#index:
+#Base URL of the published wesbite
+#baseUrl:
+
+github:
+    user:rcdesouto
+#repo:
+
+title: Couscous Project
+subTitle: PHP Static Web Generator
+
+#The Left menu bar 
+menu:
+    sections:
+        main:
+            name: Main documentation
+            items:
+                home:
+                    text: "<i class=\"fa fa-github\"></i> Home page"
+                    # You can use relative urls
+                    relativeUrl: doc/faq.html
+                foo:
+                    text: Another link
+                    # Or absolute urls
+                    absoluteUrl: https://example.com
+        other:
+            name: Other topics
+            items:
